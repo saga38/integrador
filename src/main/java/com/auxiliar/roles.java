@@ -1,2 +1,8 @@
-package com.auxiliar;public class roles {
+package com.auxiliar;
+
+public enum roles {
+    Administrador,
+    usuario,
+    cliente
+
 }

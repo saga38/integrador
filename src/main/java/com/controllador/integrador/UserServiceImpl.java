@@ -10,7 +10,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public User createUser(User user) {
-        users.put(user.getId(), user);
+        users.put(String.valueOf(user.getId()), user);
         return user;
     }
 

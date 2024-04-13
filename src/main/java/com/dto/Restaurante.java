@@ -1,6 +1,6 @@
 package com.dto;
 
-public class Reservacion {
+public class Restaurante {
     private int id;
     private String nombre;
     private String direccion;

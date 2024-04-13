@@ -1,4 +1,4 @@
-package com.auxiliar;
+package com.servicio.generic;
     import java.util.List;
     public interface GenericService<Dto> {
         String register(Dto dto);
